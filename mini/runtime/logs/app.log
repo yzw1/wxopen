@@ -1,0 +1,585 @@
+2018-12-01 15:17:56 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/say' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('say', Array)
+#1 D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/say', Array)
+#2 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-01 15:17:56 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-mini' => 'vgkcnuiq1ctm37q9c7jnmst2d4'
+    '_csrf-mini' => '55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba:2:{i:0;s:10:\"_csrf-mini\";i:1;s:32:\"q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/index'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'open.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'advanced-mini=vgkcnuiq1ctm37q9c7jnmst2d4; _csrf-mini=55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-mini%22%3Bi%3A1%3Bs%3A32%3A%22q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Python36\\Scripts\\;D:\\Python36\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php7.0.4;D:\\composer;D:\\Program Files\\nodejs\\;D:\\cmder;D:\\Program Files (x86)\\WinSCP\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Program Files\\Git\\cmd;D:\\Python36\\Lib\\site-packages\\django\\bin;D:\\Python36\\Lib\\site-packages\\scrapy;;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Redis\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) PHP/5.6.19 Server at open.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) PHP/5.6.19'
+    'SERVER_NAME' => 'open.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'SERVER_ADMIN' => 'wampserver@otomatic.net'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/wxopen/mini/web/index.php'
+    'REMOTE_PORT' => '57234'
+    'REDIRECT_URL' => '/site/say'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/say'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1543677476.791
+    'REQUEST_TIME' => 1543677476
+]
+2018-12-01 15:31:28 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Say' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('Say', Array)
+#1 D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/Say', Array)
+#2 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-01 15:31:28 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-mini' => 'vgkcnuiq1ctm37q9c7jnmst2d4'
+    '_csrf-mini' => '55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba:2:{i:0;s:10:\"_csrf-mini\";i:1;s:32:\"q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm\";}'
+    'advanced-frontend' => 'jeda50lpmink4n4d7q6umrbcf3'
+    '_csrf-frontend' => '3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"17peOnsqShFA6F8pXDavaLP4kuBDmHfx\";}'
+    'advanced-backend' => 'uohi9rkgipno5df1en49kqek75'
+    '_csrf-backend' => '65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=site%2FSay'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'open.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'advanced-mini=vgkcnuiq1ctm37q9c7jnmst2d4; _csrf-mini=55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-mini%22%3Bi%3A1%3Bs%3A32%3A%22q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm%22%3B%7D; advanced-frontend=jeda50lpmink4n4d7q6umrbcf3; _csrf-frontend=3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2217peOnsqShFA6F8pXDavaLP4kuBDmHfx%22%3B%7D; advanced-backend=uohi9rkgipno5df1en49kqek75; _csrf-backend=65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Python36\\Scripts\\;D:\\Python36\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php7.0.4;D:\\composer;D:\\Program Files\\nodejs\\;D:\\cmder;D:\\Program Files (x86)\\WinSCP\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Program Files\\Git\\cmd;D:\\Python36\\Lib\\site-packages\\django\\bin;D:\\Python36\\Lib\\site-packages\\scrapy;;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Redis\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) PHP/5.6.19 Server at open.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) PHP/5.6.19'
+    'SERVER_NAME' => 'open.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'SERVER_ADMIN' => 'wampserver@otomatic.net'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/wxopen/mini/web/index.php'
+    'REMOTE_PORT' => '58367'
+    'REDIRECT_URL' => '/site/Say'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/Say'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1543678288.449
+    'REQUEST_TIME' => 1543678288
+]
+2018-12-01 15:36:38 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Say' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('Say', Array)
+#1 D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/Say', Array)
+#2 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-01 15:36:38 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-mini' => 'vgkcnuiq1ctm37q9c7jnmst2d4'
+    '_csrf-mini' => '55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba:2:{i:0;s:10:\"_csrf-mini\";i:1;s:32:\"q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm\";}'
+    'advanced-frontend' => 'jeda50lpmink4n4d7q6umrbcf3'
+    '_csrf-frontend' => '3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"17peOnsqShFA6F8pXDavaLP4kuBDmHfx\";}'
+    'advanced-backend' => 'uohi9rkgipno5df1en49kqek75'
+    '_csrf-backend' => '65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=site%2FSay'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'open.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'advanced-mini=vgkcnuiq1ctm37q9c7jnmst2d4; _csrf-mini=55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-mini%22%3Bi%3A1%3Bs%3A32%3A%22q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm%22%3B%7D; advanced-frontend=jeda50lpmink4n4d7q6umrbcf3; _csrf-frontend=3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2217peOnsqShFA6F8pXDavaLP4kuBDmHfx%22%3B%7D; advanced-backend=uohi9rkgipno5df1en49kqek75; _csrf-backend=65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Python36\\Scripts\\;D:\\Python36\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php7.0.4;D:\\composer;D:\\Program Files\\nodejs\\;D:\\cmder;D:\\Program Files (x86)\\WinSCP\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Program Files\\Git\\cmd;D:\\Python36\\Lib\\site-packages\\django\\bin;D:\\Python36\\Lib\\site-packages\\scrapy;;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Redis\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) PHP/5.6.19 Server at open.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) PHP/5.6.19'
+    'SERVER_NAME' => 'open.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'SERVER_ADMIN' => 'wampserver@otomatic.net'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/wxopen/mini/web/index.php'
+    'REMOTE_PORT' => '58968'
+    'REDIRECT_URL' => '/site/Say'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/Say'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1543678598.538
+    'REQUEST_TIME' => 1543678598
+]
+2018-12-01 15:36:39 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/Say' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('Say', Array)
+#1 D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/Say', Array)
+#2 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-01 15:36:39 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-mini' => 'vgkcnuiq1ctm37q9c7jnmst2d4'
+    '_csrf-mini' => '55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba:2:{i:0;s:10:\"_csrf-mini\";i:1;s:32:\"q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm\";}'
+    'advanced-frontend' => 'jeda50lpmink4n4d7q6umrbcf3'
+    '_csrf-frontend' => '3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"17peOnsqShFA6F8pXDavaLP4kuBDmHfx\";}'
+    'advanced-backend' => 'uohi9rkgipno5df1en49kqek75'
+    '_csrf-backend' => '65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php?r=site%2FSay'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'open.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'advanced-mini=vgkcnuiq1ctm37q9c7jnmst2d4; _csrf-mini=55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-mini%22%3Bi%3A1%3Bs%3A32%3A%22q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm%22%3B%7D; advanced-frontend=jeda50lpmink4n4d7q6umrbcf3; _csrf-frontend=3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2217peOnsqShFA6F8pXDavaLP4kuBDmHfx%22%3B%7D; advanced-backend=uohi9rkgipno5df1en49kqek75; _csrf-backend=65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Python36\\Scripts\\;D:\\Python36\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php7.0.4;D:\\composer;D:\\Program Files\\nodejs\\;D:\\cmder;D:\\Program Files (x86)\\WinSCP\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Program Files\\Git\\cmd;D:\\Python36\\Lib\\site-packages\\django\\bin;D:\\Python36\\Lib\\site-packages\\scrapy;;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Redis\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) PHP/5.6.19 Server at open.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) PHP/5.6.19'
+    'SERVER_NAME' => 'open.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'SERVER_ADMIN' => 'wampserver@otomatic.net'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/wxopen/mini/web/index.php'
+    'REMOTE_PORT' => '58969'
+    'REDIRECT_URL' => '/site/Say'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/Say'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1543678599.583
+    'REQUEST_TIME' => 1543678599
+]
+2018-12-01 15:36:42 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/login' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#1 D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#2 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-01 15:36:42 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-mini' => 'vgkcnuiq1ctm37q9c7jnmst2d4'
+    '_csrf-mini' => '55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba:2:{i:0;s:10:\"_csrf-mini\";i:1;s:32:\"q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm\";}'
+    'advanced-frontend' => 'jeda50lpmink4n4d7q6umrbcf3'
+    '_csrf-frontend' => '3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"17peOnsqShFA6F8pXDavaLP4kuBDmHfx\";}'
+    'advanced-backend' => 'uohi9rkgipno5df1en49kqek75'
+    '_csrf-backend' => '65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'open.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'advanced-mini=vgkcnuiq1ctm37q9c7jnmst2d4; _csrf-mini=55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-mini%22%3Bi%3A1%3Bs%3A32%3A%22q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm%22%3B%7D; advanced-frontend=jeda50lpmink4n4d7q6umrbcf3; _csrf-frontend=3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2217peOnsqShFA6F8pXDavaLP4kuBDmHfx%22%3B%7D; advanced-backend=uohi9rkgipno5df1en49kqek75; _csrf-backend=65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Python36\\Scripts\\;D:\\Python36\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php7.0.4;D:\\composer;D:\\Program Files\\nodejs\\;D:\\cmder;D:\\Program Files (x86)\\WinSCP\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Program Files\\Git\\cmd;D:\\Python36\\Lib\\site-packages\\django\\bin;D:\\Python36\\Lib\\site-packages\\scrapy;;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Redis\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) PHP/5.6.19 Server at open.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) PHP/5.6.19'
+    'SERVER_NAME' => 'open.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'SERVER_ADMIN' => 'wampserver@otomatic.net'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/wxopen/mini/web/index.php'
+    'REMOTE_PORT' => '58968'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1543678602.804
+    'REQUEST_TIME' => 1543678602
+]
+2018-12-01 15:36:46 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/login' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#1 D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#2 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-01 15:36:46 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-mini' => 'vgkcnuiq1ctm37q9c7jnmst2d4'
+    '_csrf-mini' => '55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba:2:{i:0;s:10:\"_csrf-mini\";i:1;s:32:\"q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm\";}'
+    'advanced-frontend' => 'jeda50lpmink4n4d7q6umrbcf3'
+    '_csrf-frontend' => '3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"17peOnsqShFA6F8pXDavaLP4kuBDmHfx\";}'
+    'advanced-backend' => 'uohi9rkgipno5df1en49kqek75'
+    '_csrf-backend' => '65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'open.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'advanced-mini=vgkcnuiq1ctm37q9c7jnmst2d4; _csrf-mini=55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-mini%22%3Bi%3A1%3Bs%3A32%3A%22q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm%22%3B%7D; advanced-frontend=jeda50lpmink4n4d7q6umrbcf3; _csrf-frontend=3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2217peOnsqShFA6F8pXDavaLP4kuBDmHfx%22%3B%7D; advanced-backend=uohi9rkgipno5df1en49kqek75; _csrf-backend=65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Python36\\Scripts\\;D:\\Python36\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php7.0.4;D:\\composer;D:\\Program Files\\nodejs\\;D:\\cmder;D:\\Program Files (x86)\\WinSCP\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Program Files\\Git\\cmd;D:\\Python36\\Lib\\site-packages\\django\\bin;D:\\Python36\\Lib\\site-packages\\scrapy;;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Redis\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) PHP/5.6.19 Server at open.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) PHP/5.6.19'
+    'SERVER_NAME' => 'open.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'SERVER_ADMIN' => 'wampserver@otomatic.net'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/wxopen/mini/web/index.php'
+    'REMOTE_PORT' => '58969'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1543678606.509
+    'REQUEST_TIME' => 1543678606
+]
+2018-12-01 15:36:47 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/login' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#1 D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#2 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-01 15:36:47 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-mini' => 'vgkcnuiq1ctm37q9c7jnmst2d4'
+    '_csrf-mini' => '55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba:2:{i:0;s:10:\"_csrf-mini\";i:1;s:32:\"q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm\";}'
+    'advanced-frontend' => 'jeda50lpmink4n4d7q6umrbcf3'
+    '_csrf-frontend' => '3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"17peOnsqShFA6F8pXDavaLP4kuBDmHfx\";}'
+    'advanced-backend' => 'uohi9rkgipno5df1en49kqek75'
+    '_csrf-backend' => '65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'open.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'advanced-mini=vgkcnuiq1ctm37q9c7jnmst2d4; _csrf-mini=55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-mini%22%3Bi%3A1%3Bs%3A32%3A%22q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm%22%3B%7D; advanced-frontend=jeda50lpmink4n4d7q6umrbcf3; _csrf-frontend=3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2217peOnsqShFA6F8pXDavaLP4kuBDmHfx%22%3B%7D; advanced-backend=uohi9rkgipno5df1en49kqek75; _csrf-backend=65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Python36\\Scripts\\;D:\\Python36\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php7.0.4;D:\\composer;D:\\Program Files\\nodejs\\;D:\\cmder;D:\\Program Files (x86)\\WinSCP\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Program Files\\Git\\cmd;D:\\Python36\\Lib\\site-packages\\django\\bin;D:\\Python36\\Lib\\site-packages\\scrapy;;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Redis\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) PHP/5.6.19 Server at open.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) PHP/5.6.19'
+    'SERVER_NAME' => 'open.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'SERVER_ADMIN' => 'wampserver@otomatic.net'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/wxopen/mini/web/index.php'
+    'REMOTE_PORT' => '58968'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1543678607.359
+    'REQUEST_TIME' => 1543678607
+]
+2018-12-01 15:36:48 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/login' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#1 D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#2 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp\www\wxopen\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\wamp\www\wxopen\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp\www\wxopen\mini\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2018-12-01 15:36:48 [127.0.0.1][-][vgkcnuiq1ctm37q9c7jnmst2d4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-mini' => 'vgkcnuiq1ctm37q9c7jnmst2d4'
+    '_csrf-mini' => '55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba:2:{i:0;s:10:\"_csrf-mini\";i:1;s:32:\"q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm\";}'
+    'advanced-frontend' => 'jeda50lpmink4n4d7q6umrbcf3'
+    '_csrf-frontend' => '3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"17peOnsqShFA6F8pXDavaLP4kuBDmHfx\";}'
+    'advanced-backend' => 'uohi9rkgipno5df1en49kqek75'
+    '_csrf-backend' => '65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/site/'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'open.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9'
+    'HTTP_COOKIE' => 'advanced-mini=vgkcnuiq1ctm37q9c7jnmst2d4; _csrf-mini=55fc0d2355861abb07d745532f8e537e4ddb4b6b919018aaa63975e1174b3f3ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_csrf-mini%22%3Bi%3A1%3Bs%3A32%3A%22q5GS_wH0uf7MTDNq8jpk1TsEzzPgELtm%22%3B%7D; advanced-frontend=jeda50lpmink4n4d7q6umrbcf3; _csrf-frontend=3a0b28b248a3429831044ff3b42dbc4e69823567057304b2a28fb4b837a3f395a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%2217peOnsqShFA6F8pXDavaLP4kuBDmHfx%22%3B%7D; advanced-backend=uohi9rkgipno5df1en49kqek75; _csrf-backend=65fa4c0586cdb7fbef19f84bcb4132d662246a1072a816f6fb7e35febcc7d3f7a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22mvwVs9Snd5pzzYLh7yEpwyxutWkuvWE5%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;D:\\Python36\\Scripts\\;D:\\Python36\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp\\bin\\php\\php7.0.4;D:\\composer;D:\\Program Files\\nodejs\\;D:\\cmder;D:\\Program Files (x86)\\WinSCP\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;D:\\Program Files\\Git\\cmd;D:\\Python36\\Lib\\site-packages\\django\\bin;D:\\Python36\\Lib\\site-packages\\scrapy;;C:\\WINDOWS\\System32\\OpenSSH\\;D:\\Program Files\\Redis\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.18 (Win32) PHP/5.6.19 Server at open.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) PHP/5.6.19'
+    'SERVER_NAME' => 'open.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp/www/wxopen/mini/web'
+    'SERVER_ADMIN' => 'wampserver@otomatic.net'
+    'SCRIPT_FILENAME' => 'D:/wamp/www/wxopen/mini/web/index.php'
+    'REMOTE_PORT' => '58969'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1543678608.105
+    'REQUEST_TIME' => 1543678608
+]

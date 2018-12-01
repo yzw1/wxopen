@@ -1,5 +1,5 @@
 <?php
-namespace backend\controllers;
+namespace mini\controllers;
 
 use Yii;
 use yii\web\Controller;
@@ -12,6 +12,7 @@ use common\models\LoginForm;
  */
 class SiteController extends Controller
 {
+    public $layout = false;
     /**
      * {@inheritdoc}
      */
@@ -53,10 +54,6 @@ class SiteController extends Controller
         ];
     }
 
-    public function actionSay()
-    {
-        return 'www';
-    }
     /**
      * Displays homepage.
      *
@@ -66,30 +63,40 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+    public function te()
+    {
+        return 'te';
+    }
+    public function actionSay()
+    {
+
+
+    }
 
     /**
      * Login action.
      *
      * @return string
      */
-    public function actionLogin()
-    {
-        return '23';
-//        if (!Yii::$app->user->isGuest) {
-//            return $this->goHome();
-//        }
-//
-//        $model = new LoginForm();
-//        if ($model->load(Yii::$app->request->post()) && $model->login()) {
-//            return $this->goBack();
-//        } else {
-//            $model->password = '';
-//
-//            return $this->render('login', [
-//                'model' => $model,
-//            ]);
-//        }
-    }
+//    public function actionLogin()
+//    {
+//        $a = array('w'=>'www');
+//        return json_encode($a);
+////        if (!Yii::$app->user->isGuest) {
+////            return $this->goHome();
+////        }
+////
+////        $model = new LoginForm();
+////        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+////            return $this->goBack();
+////        } else {
+////            $model->password = '';
+////
+////            return $this->render('login', [
+////                'model' => $model,
+////            ]);
+////        }
+//    }
 
     /**
      * Logout action.
