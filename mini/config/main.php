@@ -9,7 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-mini',
     'basePath' => dirname(__DIR__),
-    'controllerNamespace' => 'backend\controllers',
+    'controllerNamespace' => 'mini\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
@@ -22,8 +22,7 @@ return [
             'identityCookie' => ['name' => '_identity-mini', 'httpOnly' => true],
         ],
         'session' => [
-            // this is the name of the session cookie used for login on the backend
-            'name' => 'advanced-mini',
+            'name' => 'wxopen-mini',
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
@@ -35,12 +34,11 @@ return [
             ],
         ],
         'errorHandler' => [
-            'errorAction' => 'site/error',
+            'errorAction' => 'user/error',
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-//            'enableStrictParsing' => false,
             'rules' => [
             ],
         ],
