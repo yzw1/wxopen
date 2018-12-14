@@ -9,10 +9,18 @@ $params = array_merge(
 return [
     'id' => 'app-mini',
     'basePath' => dirname(__DIR__),
+    'defaultRoute'=>'user/index',
     'controllerNamespace' => 'mini\controllers',
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=open;port=8889',
+            'username' => 'root',
+            'password' => 'root',
+            'charset' => 'utf8',
+        ],
         'request' => [
             'csrfParam' => '_csrf-mini',
         ],
@@ -34,7 +42,7 @@ return [
             ],
         ],
         'errorHandler' => [
-            'errorAction' => 'user/error',
+            'errorAction' => 'common/error',
         ],
         'urlManager' => [
             'enablePrettyUrl' => true,
