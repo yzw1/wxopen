@@ -84,6 +84,13 @@ class Users extends \yii\db\ActiveRecord
         return self::find()->asArray()->all();
     }
 
+    /**
+     * @param $ids
+     * @return false|int
+     * @throws \Throwable
+     * @throws \yii\db\StaleObjectException
+     * 删除指定的小程序
+     */
     public function deletes($ids)
     {
         return self::findOne($ids)->delete();
